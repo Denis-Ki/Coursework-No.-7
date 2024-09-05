@@ -37,6 +37,22 @@ Kichulkin Denis Coursework No. 7 (SkyPro)
 Технологии: Python, Django REST Framework (DRF), Redis, Celery, Unitest
 
 
+В соответствии с заданием курсовой работы № 8:
+Cозданы отдельные контейнеры для следующих сервисов в проекте:
+
+-Django,
+-PostrgeSQL,
+-Redis,
+-Celery.
+
+Для запуска проекта через Docker необходимо выполнить команду:
+# Сборка образа и запуск в фоне после успешной сборки
+docker-compose up -d --build
+
+Для остановки контейнеров и удаления созданных ресурсов выполните команду:
+docker-compose down
+
+
 
 
 

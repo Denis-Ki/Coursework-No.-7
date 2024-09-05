@@ -121,7 +121,7 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-../Home_Work_19_2/.env
+../Coursework-No.-7/.env
 .venv
 env/
 venv/
